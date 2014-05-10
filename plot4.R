@@ -2,7 +2,7 @@
 plot4 <-function(d="png", workdata=TRUE, fname="plot4.png") {
       
       toDate <- as.POSIXct("2007-02-02 23:59:59")
-      fromDate <- as.POSIXct("2007-02-01Load 00:00:00")
+      fromDate <- as.POSIXct("2007-02-01 00:00:00")
       
       if (is.logical(workdata) && workdata) {
             workdata <- LoadData(fDate=fromDate, 
